@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Budry Camp Croatia — a friendly transit camp in Međimurje for campers, bikers, cyclists, backpackers and travellers.">
+<title>Budry Camp Croatia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#home"><span class="mark">▲</span><span>BUDRY<br><b>CAMP</b></span></a>
+  <button class="menu" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav>
+    <a href="#home">HOME</a><a href="#prices">CAMPING & PRICES</a><a href="#facilities">FACILITIES</a>
+    <a href="#food">FOOD & DRINKS</a><a href="#gallery">GALLERY</a><a href="#find">FIND US</a><a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="shade"></div>
+  <div class="heroText">
+    <div class="eyebrow">MEĐIMURJE · CROATIA</div>
+    <h1>BUDRY CAMP</h1>
+    <h2>REST · RIDE · WALK · GO</h2>
+    <p>A simple, friendly stop for travellers passing through northern Croatia.</p>
+    <div class="buttons"><a href="#prices" class="primary">SEE CAMPING & PRICES</a><a href="#contact" class="secondary">CONTACT US</a></div>
+  </div>
+</section>
+
+<section class="intro">
+  <h2>MORE THAN A STOP</h2>
+  <p>For backpackers, cyclists, motorcyclists, cars, caravans, campervans and motorhomes. Rest, refresh and continue your journey through Međimurje.</p>
+  <div class="chips"><span>Backpackers</span><span>Cyclists</span><span>Motorcyclists</span><span>Campers</span><span>Motorhomes</span></div>
+</section>
+
+<section id="prices" class="section">
+  <div class="heading"><span>STAY</span><h2>Camping & Prices</h2></div>
+  <img class="poster" src="assets/camping-prices.png" alt="Budry Camp camping and prices">
+  <div class="cards">
+    <article><h3>Tent pitch</h3><div class="price">€15 <small>/ night</small></div><p>Bring your own tent. Wi-Fi, outdoor lighting and access to camp facilities.</p></article>
+    <article><h3>Ready Tent</h3><div class="price">€20 <small>/ night</small></div><p>For one guest. A prepared tent and large bed — arrive, relax and sleep.</p></article>
+    <article><h3>Camper / Motorhome</h3><div class="price">€40 <small>/ night</small></div><p>A comfortable transit stop with access to camp facilities.</p></article>
+  </div>
+</section>
+
+<section id="facilities" class="section dark">
+ <div class="heading"><span>COMFORT</span><h2>Facilities</h2></div>
+ <div class="featuregrid">
+  <div>📶<b>Free Wi-Fi</b><small>Stay connected</small></div>
+  <div>🚿<b>Hot showers</b><small>Freshen up</small></div>
+  <div>🚻<b>Clean toilets</b><small>Camp facilities</small></div>
+  <div>☕<b>Morning coffee</b><small>Before the road</small></div>
+  <div>🧺<b>Laundry</b><small>Washer & dryer</small></div>
+  <div>🛠️<b>Repair spot</b><small>For bikes & motorcycles</small></div>
+ </div>
+</section>
+
+<section id="food" class="section">
+ <div class="heading"><span>TASTE MEĐIMURJE</span><h2>Food, Drinks & Local Shop</h2></div>
+ <img class="poster" src="assets/food-drinks.png" alt="Food, drinks and local shop at Budry Camp">
+</section>
+
+<section class="section dark">
+ <div class="heading"><span>ARRIVE · PARK · RELAX · SLEEP</span><h2>Ready Tent</h2></div>
+ <img class="poster" src="assets/ready-tent.png" alt="Ready Tent at Budry Camp">
+</section>
+
+<section id="gallery" class="section">
+ <div class="heading"><span>THE CAMP</span><h2>Gallery</h2></div>
+ <div class="gallery">
+   <img src="assets/backpackers.png" alt="Backpackers at Budry Camp">
+   <img src="assets/camping-prices.png" alt="Camping at Budry Camp">
+   <img src="assets/ready-tent.png" alt="Ready tent">
+   <img src="assets/food-drinks.png" alt="Food and drinks">
+ </div>
+</section>
+
+<section id="find" class="section location">
+ <div><div class="heading"><span>FIND US</span><h2>Međimurje, Croatia</h2></div>
+ <p>GPS: <strong>46.520324, 16.403240</strong></p>
+ <p>A peaceful stop surrounded by the green hills of Međimurje.</p>
+ <a class="primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=46.520324,16.403240">OPEN IN GOOGLE MAPS</a></div>
+ <div class="mapbox">📍<br><b>BUDRY CAMP</b><small>46.520324, 16.403240</small></div>
+</section>
+
+<section id="contact" class="contact">
+ <span>READY FOR THE ROAD?</span><h2>Contact Budry Camp</h2>
+ <p>For availability and arrival information, contact us directly.</p>
+ <p class="note">Add your phone / WhatsApp and email here before publishing.</p>
+</section>
+</main>
+
+<footer><b>BUDRY CAMP CROATIA</b><span>REST · REFRESH · CONTINUE YOUR JOURNEY.</span><small>© 2026 Budry Camp</small></footer>
+<script>
+document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>document.querySelector('nav').classList.remove('open'));
+</script>
+</body></html>
